@@ -2,7 +2,7 @@
   "name": "test",
   "version": "1.0.0",
   "scripts": {
-    "dev": "NODE_ENV=development unicorn -l 'localhost:8888'",
+    "dev": "NODE_ENV=development bin/rails s",
     "dev:vite": "NODE_ENV=development bin/vite dev",
     "build": "NODE_ENV=production bin/vite build"
   },
