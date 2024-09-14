@@ -1,0 +1,9 @@
+*.gem
+.bundle
+.DS_Store
+*.code-workspace
+.env*
+tmp
+/public/vite*
+/node_modules
+/log
